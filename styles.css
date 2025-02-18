@@ -36,14 +36,15 @@ nav h1{
     font-size: 40pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    margin: 30px;
+    margin-left: 70px;
 }
 
 .sociallinks{
     margin-right: 50px;
 }
+
 nav img{
-    margin: 40px;
+    margin: 20px;
 }
 
 nav a{
@@ -80,7 +81,7 @@ img{
 }
 
 
-.main, .aboutmain{
+.main, .aboutmain, .portfoliomain{
     background-color: #E5E7EB;
     min-height: 100vh;
     display: block;
@@ -112,7 +113,7 @@ img{
     transform: translate(-50%, -50%);
     line-height: 90px;
     font-family: cursive;
-    text-shadow: white 0px 0px 10px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
 }
 
 .content{
@@ -172,25 +173,44 @@ img{
     border-bottom: black 2px solid;
 }
 
-.aboutmain{
-    font-size: 18pt;
+.aboutmain, .portfoliomain{
+    font-size: 19pt;
     color: black;
 }
 
-.aboutmain p{
+.aboutmain p, .portfoliomain p{
     text-indent: 60px;
     line-height: 40px;
 }
 
-.gym, .travel{
+.running, .travel{
     padding-bottom: 40px;
     border-bottom: 2px black solid;
 }
-.aboutmain img{
+.aboutmain img, .portfoliomain img{
     margin: 20px;
     align-items: center;
 }
 
+.portfoliomain h2{
+    margin: 70px;
+    padding: 50px;
+    font-size: 25pt;
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    box-shadow: 0 0 12px -2px black;
+    border-radius: 20px;
+
+}
+
+.firstproject, .secproject, .thirdproject{
+    border: 2px black solid;
+    padding: 20px;
+    box-shadow: 0 0 12px -2px black;
+    margin: 50px;
+    border-radius: 20px;
+}
 
 @media screen and (max-width: 1100px) {
     nav ul{
