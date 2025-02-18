@@ -66,12 +66,6 @@ nav li{
 nav a:hover{
     text-decoration: underline 1px;
     text-underline-offset: 10px;
-    font-size: 16pt;
-}
-
-nav img:hover{
-    width: 50px;
-    height: 50px;
 }
 
 
@@ -86,19 +80,22 @@ img{
 }
 
 
-.main{
+.main, .aboutmain{
     background-color: #E5E7EB;
-    min-height: 90vh;
+    min-height: 100vh;
     display: block;
     padding: 50px;
     top: 1200px;
     box-shadow: 0 0 12px -2px black;
+   
+}
+
+.main {
     background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
     background-repeat: no-repeat;
     page-break-after: none;
 }
-
 
 .topmain img{
     margin: 20px 0px 20px 30px;
@@ -110,7 +107,7 @@ img{
     position: absolute;
     text-align: center;
     font-size: 35pt;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 90px;
@@ -135,7 +132,7 @@ img{
 }
 
 .content p{
-    font-size: 25pt;
+    font-size: 20pt;
     text-indent: 60px;
 }
 
@@ -164,6 +161,34 @@ img{
     text-decoration: none;
     color: black;
     font-size: 20pt;
+}
+
+.aboutmain h2{
+    margin: 60px;
+    padding: 50px;
+    font-size: 25pt;
+    color: black;
+    text-align: center;
+    border-bottom: black 2px solid;
+}
+
+.aboutmain{
+    font-size: 18pt;
+    color: black;
+}
+
+.aboutmain p{
+    text-indent: 60px;
+    line-height: 40px;
+}
+
+.gym, .travel{
+    padding-bottom: 40px;
+    border-bottom: 2px black solid;
+}
+.aboutmain img{
+    margin: 20px;
+    align-items: center;
 }
 
 
