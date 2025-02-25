@@ -81,8 +81,8 @@ img{
 }
 
 
-.main, .aboutmain, .portfoliomain{
-    background-color: #E5E7EB;
+.main, .aboutmain, .portfoliomain, .contactmain, .formsubmited{
+    background-color: #f0f8ff;
     min-height: 100vh;
     display: block;
     padding: 50px;
@@ -210,6 +210,96 @@ img{
     box-shadow: 0 0 12px -2px black;
     margin: 50px;
     border-radius: 20px;
+}
+
+
+.contactmain h2{
+    margin: 70px;
+    padding: 50px;
+    font-size: 25pt;
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    box-shadow: 0 0 12px -2px black;
+    border-radius: 20px;
+}
+
+form{   
+    width: 100%;
+    height: auto;
+    font-size: 15pt;
+    margin-left: 16%;
+}
+
+#message{
+    margin-left: 2%;
+}
+input{
+    padding: 10px;
+    width: 30%;
+    margin: 20px;
+    font-size: 15pt;
+}
+
+#fullname{
+    width: 30.4%;
+}
+
+#email{
+    width: 65%;
+}
+
+label{
+    position: relative;
+    text-align: left !important;
+    color: black;
+    left: 30px;
+}
+
+textarea{
+    font-size: 15pt;
+    padding: 10px;
+    margin: 20px;
+}
+
+#message{
+    width: 65%;
+    height: 50%;
+}
+
+#submit{
+    margin-left: 19.5%;
+}
+
+.formsubmited p{
+    color: black;
+}
+
+.formsubmited h2{
+    margin: 70px;
+    padding: 50px;
+    font-size: 20pt;
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    box-shadow: 0 0 12px -2px black;
+    border-radius: 20px;
+}
+
+.formsubmited img{
+    margin: 1% 35%;
+}
+
+.formsubmited p{
+    text-align: center;
+    font-size: 20pt;
+}
+
+.formsubmited button{
+    font-size: 15pt;
+    margin-left: 40%;
+    width: 20%;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1100px) {
