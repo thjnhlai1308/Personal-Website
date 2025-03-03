@@ -8,7 +8,7 @@ body{
     padding: 0;
     margin: 0 auto;
     display: block;
-    max-width: 1200px;
+    max-width: 1300px;
     font-family: 'Source Sans Pro Topnav', sans-serif;
 
 }
@@ -250,7 +250,12 @@ input{
 input:hover, textarea:hover{
     border: 1px #00c8ff solid;
     border-radius: 5px;
+    box-shadow: 0 0 12px -2px black;
 
+}
+
+input[type=text]:focus, textarea:focus{
+    box-shadow: 0px 0px 12px -2px black;    
 }
 
 #fullname{
@@ -288,9 +293,7 @@ textarea{
     border-radius: 15px;
 }
 
-.formsubmited p{
-    color: black;
-}
+
 
 .formsubmited h2{
     background-color: white;
@@ -312,6 +315,7 @@ textarea{
     text-align: center;
     font-size: 20pt;
     margin: 4% 0;
+    color: black;
 }
 
 .formsubmited button{
@@ -321,6 +325,10 @@ textarea{
     padding: 10px;
     background-color: white;
     border-radius: 15px;
+}
+
+.formsubmited > button:hover{
+    box-shadow: 0px 0px 12px -2px black;
 }
 
 @media screen and (max-width: 1100px) {
